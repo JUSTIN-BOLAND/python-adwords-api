@@ -1,2 +1,2 @@
 # python-adwords-api
-Python scripts taking advantage of AdWords API
+Python scripts using AdWords API
