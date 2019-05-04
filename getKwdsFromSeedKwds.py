@@ -120,12 +120,12 @@ if __name__ == '__main__':
   adwords_client = adwords.AdWordsClient.LoadFromStorage("ABSOLUTE-PATH-TO-googleads.yaml")
   adwords_client.SetClientCustomerId('ENTER-YOURS-HERE')
 
-  kwds = open("_kwds.txt","r")
+  kwds = open("kwds.txt","r")
   reload(sys)
   sys.setdefaultencoding('utf-8')
   for line in kwds:
       item = line.strip()
-      results_file = open("_results.txt", "a+")
+      results_file = open("results.txt", "a+")
       main(adwords_client, item, int(AD_GROUP_ID) if AD_GROUP_ID.isdigit() else None)
       print(datetime.datetime.now())
       results_file.close()
