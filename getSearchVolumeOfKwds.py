@@ -30,7 +30,7 @@ import datetime
 
 # Optional AdGroup ID used to set a SearchAdGroupIdSearchParameter.
 AD_GROUP_ID = 'INSERT_AD_GROUP_ID_HERE'
-PAGE_SIZE = 700
+PAGE_SIZE = 10
 
 
 def main(client, item, ad_group_id=None):
@@ -50,8 +50,7 @@ def main(client, item, ad_group_id=None):
   offset = 0
   selector['paging'] = {
       'startIndex': str(offset),
-      #'numberResults': str(PAGE_SIZE)
-      'numberResults': 10
+      'numberResults': str(PAGE_SIZE)
   }
 
   selector['searchParameters'] = [{
