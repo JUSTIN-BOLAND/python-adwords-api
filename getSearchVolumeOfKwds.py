@@ -127,5 +127,3 @@ if __name__ == '__main__':
       print(datetime.datetime.now())
       results_file.close()
       sleep(2)
-
-results_file.close()
