@@ -1,3 +1,5 @@
+# originally written in Python 2. this coulde cause issues with later versions of Python
+
 #https://developers.google.com/adwords/api/docs/samples/python/optimization#get-keywords-related-to-a-seed-keyword
 
 # Copyright 2016 Google Inc. All Rights Reserved.
@@ -117,8 +119,8 @@ if __name__ == '__main__':
   adwords_client.SetClientCustomerId('ENTER-YOURS-HERE')
 
   kwds = open("kwds.txt","r")
-  reload(sys)
-  sys.setdefaultencoding('utf-8')
+  #reload(sys)
+  #sys.setdefaultencoding('utf-8')
   
   for line in kwds:
       item = line.strip()
