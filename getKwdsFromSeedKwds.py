@@ -1,4 +1,4 @@
-# originally written in Python 2. this coulde cause issues with later versions of Python
+# originally written in Python 2: This coulde cause issues with later versions of Python
 
 #https://developers.google.com/adwords/api/docs/samples/python/optimization#get-keywords-related-to-a-seed-keyword
 
