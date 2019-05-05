@@ -119,8 +119,8 @@ if __name__ == '__main__':
   adwords_client.SetClientCustomerId('ENTER-YOURS-HERE')
 
   urls = open("urls.txt","r")
-  reload(sys)
-  sys.setdefaultencoding('utf-8')
+  #reload(sys)
+  #sys.setdefaultencoding('utf-8')
   
   for line in urls:
       results_file = open("results.txt", "a+")
