@@ -1,5 +1,4 @@
-#!/home/giancampo/.virtualenvs/AdWordsAPI/bin/python
-# encoding: utf-8
+# originally written in Python 2. this coulde cause issues with later versions of Python
 
 #https://developers.google.com/adwords/api/docs/samples/python/optimization#get-keywords-related-to-a-seed-keyword
 
